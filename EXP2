@@ -1,0 +1,58 @@
+<!--Design a HTML page for Student Registration Form using Form 
+Elements that includes Form,input text,password,radio,checkbox,hidden,
+button,submit,reset,label,textarea,select,option and file 
+upload.-->
+
+<!DOCTYPE html>
+<html>
+    <title>exp4</title>
+    <center>
+    <head>
+        <h2 >REGIRISTRATION FORM</h2>
+        <p>Student registration form</p>
+    </head>
+    <style>
+        h2{text-align: center;}
+        p{text-align: center;}
+    </style>
+    <body style="background-color:skyblue;">
+    
+    <label>STUDENT NAME</label>
+    <input type="text" placeholder="Enter full name" name="STUDENT NAME">
+    <br>
+
+    <label>USER NAME</label>
+    <input type="text" placeholder="uesr name" name="uesr name">
+    <br>
+
+    <label>DOB</label>
+    <input type="text" placeholder="Date of birth" name="DOB">
+    <br>
+
+    <label>GENDER</label><br>
+    <input type="radio" name="GENDER" />Male <br>
+    <input type="radio" name="GENDER" />Female<br>
+    <input type="radio" name="GENDER" />Others
+    <br>
+
+    <label>PHONE NUMBER</label>
+    <input type="number" placeholder="MOBILE NUMBER" name="MOBILE NUMBER">
+    <br>
+
+    <label>Email</label>
+    <input type="text" placeholder="Enter Email" name="email">
+    <br>
+    
+    Address:
+    <br>
+    <textarea cols="50" rows="5">
+    </textarea>
+    <br>
+    <button type="Reset">Reset</button>
+    <button type="Submit">submit
+    </button>
+
+</body>
+</center>
+</b<>
+</html>
