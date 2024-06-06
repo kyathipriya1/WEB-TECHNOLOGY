@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Company</title>
+</head>
+<body>
+    <header class="top">
+        <img src="company-logo.png" alt="Company Logo">
+        <h1>Company Title</h1>
+    </header>
+
+    <nav class="left">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#branches">Branches</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <main class="center">
+        <!-- Content will be loaded here dynamically -->
+    </main>
+
+    <footer class="bottom">
+        &copy; 2023 Your Company. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
