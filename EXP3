@@ -1,0 +1,26 @@
+<!--Design a HTML web page with at least two <h1>, two images, two buttons,
+ and appropriate CSS to display,
+All<h1>withfont-size12pt, and bold in Verdana font using In line CSS.
+All<img>with border color yellow,thickness 10px using Document Level CSS.
+All<inputtype=’button’>should change background color to red on mouseover them
+using External CSS-->
+<!DOCTYPE html>
+<html>
+    <title>exp5</title>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        img {
+            border: 10px solid yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-size:12pt; font-weight:bold; font-family:Verdana;">Heading 1</h1>
+    <h1 style="font-size:12pt; font-weight:bold; font-family:Verdana;">Heading 2</h1>
+    <img src="image1.jpg" alt="Image 1">
+    <img src="image2.jpg" alt="Image 2">
+    <input type="button" value="Button 1">
+    <input type="button" value="Button 2">
+</body>
+</html>
