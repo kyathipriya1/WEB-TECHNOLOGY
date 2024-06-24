@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio Player</title>
+    <style>
+        body 
+{
+            background-color: grey; 
+            padding: 20px;
+            display: flex; 
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .audio-container
+ {
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="audio-container">
+        <h2>Audio 1</h2>
+        <audio controls>
+            <source src="Perfect.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div class="audio-container">
+        <h2>Audio 2</h2>
+        <audio controls>
+            <source src="EmannavoO.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div class="audio-container">
+        <h2>Audio 3</h2>
+        <audio controls>
+            <source src="Na Roja Nuvve-Kushi.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div class="audio-container">
+        <h2>Audio 4</h2>
+        <audio controls>
+            <source src="ninnila.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+</body>
+
+<head>
+  <title>Video</title>
+   <style>
+     body 
+{
+    background-color: purple;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+ }
+
+      .video-container
+ {
+       text-align: center;
+       margin: 20px;   
+ }
+
+        video
+ {
+         width: 320px;
+         height: 240px;
+        }
+
+        .video-description
+ {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="video-container">
+        <video controls>
+        <source src="dhoni1.mp4" type="video/mp4">
+        </video>
+        <div class="video-description"> captain cool Song</div>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+        <source src="dhoni2.mp4" type="video/mp4">
+        </video>
+        <div class="video-description"> thala Video</div>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+        <source src="dhoni3.mp4" type="video/mp4">
+        </video>
+        <div class="video-description"> msd Video</div>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+        <source src="dhoni4.mp4" type="video/mp4">
+        </video>
+        <div class="video-description"> mahi Video</div>
+    </div>
+
+</body>
+<head>
+    <title>Audio Player</title>
+    <style>
+        body
+ {
+            background-color: grey; 
+            padding: 20px;
+            display: flex; 
+            flex-wrap: wrap;
+            justify-content: center;
+  }
+
+        .audio-container
+ {
+            margin: 20px;
+  }
+</style>
+</head>
+</html> 
